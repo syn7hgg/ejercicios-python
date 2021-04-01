@@ -2,7 +2,7 @@ print("Qué mes es?")
 
 num = int(input("Ingresa un número del 1 al 12: "))
 
-if(num < 1 or num > 12):
+if num < 1 or num > 12:
     print("Fuera de rango.")
 else:
     if num == 1:
