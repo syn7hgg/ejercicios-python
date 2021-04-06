@@ -1,7 +1,6 @@
 while True:
+    orden = input("ingrese operación:")
 
-  orden = input("ingrese operación:")
+    r = eval(orden)
 
-  r = eval(orden)
-
-  print("resultado =", r)
+    print("resultado =", r)
