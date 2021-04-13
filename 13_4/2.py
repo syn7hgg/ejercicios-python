@@ -2,7 +2,7 @@ print("--------------")
 
 print("string inicial")
 
-saludo="amiga"
+saludo = "amiga"
 
 print(saludo)
 
@@ -12,11 +12,11 @@ print("--------------")
 
 print("convertir a lista")
 
-saludo_l=list(saludo)
+saludo_l = list(saludo)
 
 print(saludo_l)
 
-saludo_l[4]='o'
+saludo_l[4] = 'o'
 
 print(saludo_l)
 
@@ -24,6 +24,6 @@ print("--------------")
 
 print("metodo join")
 
-saludo="".join(saludo_l)
+saludo = "".join(saludo_l)
 
 print(saludo)
