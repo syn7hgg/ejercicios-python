@@ -17,3 +17,11 @@ for e in lista[::-1]:
     numero_bin = numero_bin + str(e)
 
 print("resultado=" + str(numero_bin))
+
+# Utilizando bin()
+
+numero = int(input("ingrese numero entero: "))
+
+binario = bin(numero)[2:]
+
+print("resultado=", binario)
