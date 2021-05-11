@@ -76,8 +76,9 @@ def print_info():
     for x in selWord:
         for y in hitList:
             if y in selWord:
-                print("", y, " ")
+                print("", y, " ", end="")
                 break
+            print(" _ ", end="")
 
 
 wordList = 'hormiga babuino tejon murcielago oso castor camello gato almeja cobra pantera ' \
