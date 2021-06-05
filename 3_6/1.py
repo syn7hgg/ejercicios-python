@@ -18,19 +18,18 @@ def search_data(mon, day, data, reverse):
         processed = []
         for x in data:
             sep = x[0].strip().split('-')
-            if sep[0] == day and sep[1] == mon:
+            if sep[2] == day and sep[1] == mon:
                 continue
             else:
                 processed.append(x)
         generate_file('meses-resto.txt', processed)
-        return True
     else:
+        processed = []
         for x in data:
             sep = x[0].strip().split('-')
-            if int(sep[0]) == day and sep[1] == mon:
-                generate_file(str(mon) + '-' + str(day) + '.txt', [x])
-                return True
-    return False
+            if int(sep[2]) == day and sep[1] == mon:
+                processed.append(x)
+        generate_file(str(mon) + '-' + str(day) + '.txt', processed)
 
 
 def generate_file(name, data):
@@ -42,7 +41,7 @@ def generate_file(name, data):
 
 
 month = input("Ingrese mes: ")
-day = int(input("Ingrese día: "))
+day = int(input("Ingrese año: "))
 data = get_lines('solo_dolar.txt')
 proc = process_lines(data)
 search_data(month, day, proc, False)
