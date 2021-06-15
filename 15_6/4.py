@@ -44,31 +44,27 @@ def parse_data(filename):
 def generate_lines(data):
     lines = []
     for x in data:
-        line = x.get_name()+';'+x.get_rut()+';'+str(x.get_avg())
+        line = x.get_name()+','+x.get_rut()+','+str(x.get_avg())
         lines.append(line)
     return lines
-
-
-def save_filtered(data):
-    file_ap = open('aprobados.txt', 'w')
-    file_ex = open('examen.txt', 'w')
-    for x in data:
-        line = x.get_name() + ';' + x.get_rut() + ';' + str(x.get_avg())
-        if x.get_avg() >= 5:
-            file_ap.write(line+'\n')
-        else:
-            file_ex.write(line+'\n')
-    return print("Archivos de filtro generados correctamente.")
 
 
 def save_data(data, filename):
     file = open(filename+'.txt', 'w')
     for x in data:
         file.write(x+'\n')
-    return print("Archivo generado correctamente.")
+    return print("Archivo TXT generado correctamente.")
+
+
+def save_csv(data, filename):
+    file = open(filename+'.csv', 'w')
+    file.write("RUT,NOMBRE,NP\n")
+    for x in data:
+        file.write(x+'\n')
+    return print("Archivo CSV generado correctamente.")
 
 
 students = parse_data('estudiantes')
 lines = generate_lines(students)
 save_data(lines, 'NP')
-save_filtered(students)
+save_csv(lines, 'NP_csv')

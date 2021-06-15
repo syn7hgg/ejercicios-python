@@ -1,7 +1,16 @@
 class Student:
-    def __init__(self, name, rut, marks):
+    def __init__(self):
+        self.name = ""
+        self.rut = ""
+        self.marks = []
+
+    def set_name(self, name):
         self.name = name
+
+    def set_rut(self, rut):
         self.rut = rut
+
+    def set_marks(self, marks):
         self.marks = marks
 
     def get_name(self):
@@ -24,11 +33,13 @@ def parse_data(filename):
     students = []
     file = open(filename+'.txt', 'r')
     data = file.readlines()
+    count = 0
     for x in data:
         parsed = x.split(';')
-        students.append(Student(
-            parsed[0],
-            parsed[1],
+        students.append(Student())
+        students[count].set_name(parsed[0])
+        students[count].set_rut(parsed[1])
+        students[count].set_marks(
             [
                 parsed[2],
                 parsed[3],
@@ -37,7 +48,8 @@ def parse_data(filename):
                 parsed[6],
                 parsed[7]
             ]
-        ))
+        )
+        count += 1
     return students
 
 
@@ -50,10 +62,10 @@ def generate_lines(data):
 
 
 def save_filtered(data):
-    file_ap = open('aprobados.txt', 'w')
-    file_ex = open('examen.txt', 'w')
+    file_ap = open('aprobados_v2.txt', 'w')
+    file_ex = open('examen_v2.txt', 'w')
     for x in data:
-        line = x.get_name() + ';' + x.get_rut() + ';' + str(x.get_avg())
+        line = x.get_name() + ',' + x.get_rut() + ',' + str(x.get_avg())
         if x.get_avg() >= 5:
             file_ap.write(line+'\n')
         else:

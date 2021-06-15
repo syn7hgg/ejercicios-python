@@ -1,0 +1,6 @@
+1111-6;Jaime Dudon;3.2
+111111-4;Juan Niidea;2.1
+2222222-5;Carlos Mejora;4.7
+1111-6,Jaime Dudon,3.2
+111111-4,Juan Niidea,2.1
+2222222-5,Carlos Mejora,4.7
