@@ -1,0 +1,7 @@
+1-9,Juan Perez,6.2
+3-5,Carlos Soto,6.1
+1111-6,Jaime Dudon,3.2
+111111-4,Juan Niidea,2.1
+2222222-5,Carlos Mejora,4.7
+77777-8,Luis Bueno,5.1
+777-8,Luis Franco,6.9
