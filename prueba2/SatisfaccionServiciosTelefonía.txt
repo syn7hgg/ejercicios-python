@@ -1,0 +1,5 @@
+vtr;VTR;4;2;3;5;1
+etl;Entel;3;4;5;5;4
+mov;Movistar;5;5;5;5;5
+gtd;Grupo GTD;2;3;3;4;5
+wom;WOM Chile;4;4;5;5;3

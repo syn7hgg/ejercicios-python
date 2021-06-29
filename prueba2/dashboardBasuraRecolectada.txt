@@ -1,0 +1,69 @@
+===== PROMEDIOS POR COMUNA =====
+Comuna 0: 678 bolsas por día
+Comuna 1: 703 bolsas por día
+Comuna 2: 739 bolsas por día
+Comuna 3: 712 bolsas por día
+Comuna 4: 587 bolsas por día
+Comuna 5: 717 bolsas por día
+Comuna 6: 562 bolsas por día
+Comuna 7: 510 bolsas por día
+Comuna 8: 568 bolsas por día
+Comuna 9: 618 bolsas por día
+Comuna 10: 382 bolsas por día
+Comuna 11: 650 bolsas por día
+Comuna 12: 558 bolsas por día
+Comuna 13: 767 bolsas por día
+Comuna 14: 556 bolsas por día
+Comuna 15: 592 bolsas por día
+Comuna 16: 529 bolsas por día
+Comuna 17: 669 bolsas por día
+Comuna 18: 462 bolsas por día
+Comuna 19: 499 bolsas por día
+Comuna 20: 585 bolsas por día
+Comuna 21: 687 bolsas por día
+Comuna 22: 508 bolsas por día
+Comuna 23: 699 bolsas por día
+Comuna 24: 660 bolsas por día
+Comuna 25: 645 bolsas por día
+Comuna 26: 676 bolsas por día
+Comuna 27: 641 bolsas por día
+Comuna 28: 569 bolsas por día
+Comuna 29: 587 bolsas por día
+Comuna 30: 506 bolsas por día
+Comuna 31: 561 bolsas por día
+Comuna 32: 715 bolsas por día
+Comuna 33: 608 bolsas por día
+Comuna 34: 380 bolsas por día
+Comuna 35: 545 bolsas por día
+Comuna 36: 603 bolsas por día
+Comuna 37: 661 bolsas por día
+Comuna 38: 693 bolsas por día
+Comuna 39: 689 bolsas por día
+Comuna 40: 393 bolsas por día
+Comuna 41: 574 bolsas por día
+Comuna 42: 659 bolsas por día
+Comuna 43: 632 bolsas por día
+Comuna 44: 555 bolsas por día
+Comuna 45: 639 bolsas por día
+Comuna 46: 664 bolsas por día
+Comuna 47: 678 bolsas por día
+Comuna 48: 787 bolsas por día
+Comuna 49: 555 bolsas por día
+Comuna 50: 708 bolsas por día
+Comuna 51: 640 bolsas por día
+===== MÁXIMO PROMEDIO =====
+Comuna 48: 787 bolsas por día
+===== MÍNIMO PROMEDIO =====
+Comuna 34: 380 bolsas por día
+===== PROMEDIO POR DÍA =====
+Lunes (0): 651 bolsas
+Martes (1): 587 bolsas
+Miércoles (2): 637 bolsas
+Jueves (3): 546 bolsas
+Viernes (4): 596 bolsas
+Sábado (5): 619 bolsas
+Domingo (6): 640 bolsas
+===== PROMEDIO GENERAL =====
+Promedio: 611 bolsas por día
+
+===== FIN DE LOS DATOS =====

@@ -1,0 +1,5 @@
+Para el dia lunes==> el jugo es granadina, la entrada es: lechuga y el plato de fondo es: mariscal
+Para el dia martes==> el jugo es melón, la entrada es: palitos de ajo y el plato de fondo es: pure pollo
+Para el dia miércoles==> el jugo es damasco, la entrada es: cebolla y el plato de fondo es: caldillo de congrio
+Para el dia jueves==> el jugo es granadina, la entrada es: lechuga y el plato de fondo es: palta reina
+Para el dia viernes==> el jugo es piña, la entrada es: chilena y el plato de fondo es: pure pollo

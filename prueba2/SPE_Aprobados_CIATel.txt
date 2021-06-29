@@ -1,0 +1,3 @@
+etl;Entel;4.15
+mov;Movistar;5.0
+wom;WOM Chile;4.3

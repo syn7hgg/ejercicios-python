@@ -1,0 +1,6 @@
+La media de los precios es:700
+El precio minimo es :600 Corresponde a:Sal
+El precio maximo es :800 Corresponde a:Leche
+La media de los precios es:1250
+El precio minimo es :1200 Corresponde a:Azucar
+El precio maximo es :1300 Corresponde a:Arroz
